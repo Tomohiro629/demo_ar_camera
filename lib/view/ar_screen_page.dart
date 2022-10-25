@@ -10,6 +10,7 @@ import 'package:ar_flutter_plugin/models/ar_hittest_result.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
 import 'package:ar_flutter_plugin/widgets/ar_view.dart';
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:vector_math/vector_math_64.dart';
 
 class ArScreenPage extends StatefulWidget {
@@ -39,6 +40,7 @@ class _ArScreenPageState extends State<ArScreenPage> {
           title: const Text('Object Transformation Gestures'),
         ),
         body: Container(
+      
             child: Stack(children: [
           ARView(
             onARViewCreated: onARViewCreated,
